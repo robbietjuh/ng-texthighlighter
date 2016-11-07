@@ -3,3 +3,5 @@ This is just a small proof of concept for me to try out Coffeescript with Angula
 
 ## Demo
 It's as simple as cloning the repository and running the included demo. No need to compile or anything, I've already included the compiled JS scripts for you.
+
+![Demo](demo.gif)
