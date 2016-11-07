@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <title>Demo</title>
+
+    <style type="text/css">
+    html, body {
+        font-family: -apple-system, 'Helvetica Neue', 'Segoe UI', arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .container {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .box {
+        margin: 25px;
+        float: left;
+        width: 400px;
+        padding: 40px;
+        -webkit-box-shadow: 0 0 25px -10px rgba(0,0,0,0.6);
+        -moz-box-shadow: 0 0 25px -10px rgba(0,0,0,0.6);
+        box-shadow: 0 0 25px -10px rgba(0,0,0,0.6);
+    }
+
+    code {
+        padding: 2px 4px;
+        font-size: 90%;
+        color: #c7254e;
+        background-color: #f9f2f4;
+        border-radius: 4px
+    }
+    </style>
+
+    <script type="text/javascript" src="https://code.angularjs.org/1.5.8/angular.js"></script>
+    <script type="text/javascript" src="../dist/ng-highlighter.min.js"></script>
+</head>
+<body>
+    <div class="container" ng-app="ng-highlighter">
+        <h1>ng-highlighter demo</h1>
+        <div class="box" highlighter>
+            <strong>This box uses the <code>highlighter</code> directive to enable you to highlight text. Try it out!</strong>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et nunc nisl. Integer auctor dolor velit,
+                vel venenatis elit blandit vitae. Nunc vitae rutrum neque, sed malesuada ex. Praesent lectus nulla, rutrum
+                sit amet augue quis, accumsan aliquet nisl. Sed in lacus nunc. Donec tincidunt purus ut varius tristique.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et nunc nisl. Integer auctor dolor velit,
+                vel venenatis elit blandit vitae. Nunc vitae rutrum neque, sed malesuada ex. Praesent lectus nulla, rutrum
+                sit amet augue quis, accumsan aliquet nisl. Sed in lacus nunc. Donec tincidunt purus ut varius tristique.
+            </p>
+        </div>
+
+        <div class="box">
+            <strong>
+                This box does NOT use the <code>highlighter</code> directive. You can select this text but it won't
+                highlight.
+            </strong>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et nunc nisl. Integer auctor dolor velit,
+                vel venenatis elit blandit vitae. Nunc vitae rutrum neque, sed malesuada ex. Praesent lectus nulla, rutrum
+                sit amet augue quis, accumsan aliquet nisl. Sed in lacus nunc. Donec tincidunt purus ut varius tristique.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et nunc nisl. Integer auctor dolor velit,
+                vel venenatis elit blandit vitae. Nunc vitae rutrum neque, sed malesuada ex. Praesent lectus nulla, rutrum
+                sit amet augue quis, accumsan aliquet nisl. Sed in lacus nunc. Donec tincidunt purus ut varius tristique.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
